@@ -1,0 +1,509 @@
+/* Main Styles */
+html, body{
+	color:#B8B6B5;
+	padding-top:70px;
+}
+
+.center-block{
+	width:100%;
+	text-align:center;
+	overflow:hidden;
+	margin-top:-20px;
+}
+
+/* Top Navigation Styles */
+.navbar{
+	background-color:#FFFFFF;
+	border:0;
+	position:relative;
+	padding-top:5px;
+	height:110px;
+}
+
+.brand{
+	position:absolute;
+	left:50%;
+	margin-left:-45px !important;
+	display:block;
+}
+
+.brand img{
+	width:90px;
+}
+
+.dropdown{
+	position:absolute;
+	right:5%;
+	top:50%;
+}
+
+.dropdown button{
+	border:0;
+	background-color:#FFFFFF;
+	font-size:25px;
+}
+
+.dropdown-menu{
+	padding:0px;
+	min-width:0px !important;
+	width:130px !important;
+	margin-top:-20px;
+	margin-right:15px;
+}
+
+.dropdown-menu li{
+	border: 1px solid #D7D12E;
+	text-align:center;
+	padding:2px;
+}
+
+
+/* Footer Styles */
+.footer{
+	background-color:#E1E1E1;
+}
+
+.footnav-section{
+	text-align:center;
+	width:33%;
+	float:left;
+	padding:10px;
+}
+
+.footnav-section img{
+	width:50px;
+}
+
+/* Home Page Styles */
+.homepage img{
+	width:100%;
+}
+
+/* Design Page Styles */
+.designnav-images{
+	width:25%;
+	padding:10px;
+	float:left;
+}
+
+.designnav-images img{
+	width:50px;
+	border:0px solid #C5CA37;
+	border-radius:50px;
+}
+
+/* Bag Coloring Styles */
+#bagcolor{
+	margin-top:70px;
+	margin-left:auto;
+	margin-right:auto;
+	left:0;
+	right:0;
+	width:130px;
+	height:200px;
+	position:relative;
+}
+
+#backstrap-border, #bag-border, #frontstrap-border, #smallstrap-border, #bottom-border, #buckletop-border, #innerbag, #logo, #buckle, #stiches, #extrastich2, #bagtag, #innerbag, #logo, #buckle, #sticthes, #extrastich2, #bagtag{
+	position:absolute;
+	margin-left:auto;
+	margin-right:auto;
+	left:0;
+	right:0;
+}
+
+#backstrap{
+    width: 98%;
+    height:98%;
+    top:1%;
+    left:1%;
+    background-color: #E1E1E1;
+    -webkit-mask-box-image: url("../assets/design/bagparts/01_color-backstrap.png");
+}
+
+#backstrap-border{
+    width: 80px;
+    height:114px;
+    -webkit-mask-box-image: url("../assets/design/bagparts/01_color-backstrap.png");
+}
+
+
+#bag{
+    width: 98%;
+    height:98%;
+    top:1%;
+    left:1%;
+    background-color: #E6E6E8;
+    -webkit-mask-box-image: url("../assets/design/bagparts/03_color-frontbag.png");
+}
+
+#bag-border{
+    width:90%;
+    height:125px;
+    background-color:#E1E1E1;
+    -webkit-mask-box-image: url("../assets/design/bagparts/03_color-frontbag.png");
+	margin-top:50px;
+}
+
+#frontstrap{
+    width: 98%;
+    height:98%;
+    top:0%;
+    left:0%;
+    background-color: #FFFFFF;
+    -webkit-mask-box-image: url("../assets/design/bagparts/05_color-frontstrap.png");
+}
+
+#frontstrap-border{
+    width: 60%;
+	height:170px;
+    background-color:#E1E1E1;
+    -webkit-mask-box-image: url("../assets/design/bagparts/05_color-frontstrap.png");
+	margin-top:4px;
+}
+
+#smallstrap{
+    position:absolute;
+    width: 98%;
+    height:98%;
+    top:0%;
+    left:0%;
+    background-color: #FFFFFF;
+    -webkit-mask-box-image: url("../assets/design/bagparts/07_color-smallstrap.png");
+}
+
+#smallstrap-border{
+    width: 90%;
+    height:95px;
+    background-color:#FFFFFF;
+    -webkit-mask-box-image: url("../assets/design/bagparts/07_color-smallstrap.png");
+	margin-top:98px;
+	margin-left:15px;
+}
+
+#bottom{
+    position:absolute;
+    width: 98%;
+    height:98%;
+    top:0%;
+    left:0%;
+    background-color: #969696;
+    -webkit-mask-box-image: url("../assets/design/bagparts/09_color-bagbottom.png");
+}
+
+#bottom-border{
+    width:90%;
+	height:40px;
+    background-color:#FFFFFF;
+    -webkit-mask-box-image: url("../assets/design/bagparts/09_color-bagbottom.png");
+	margin-top:155px;
+}
+
+#buckletop{
+    position:absolute;
+    width: 98%;
+    height:98%;
+    top:0%;
+    left:0%;
+    background-color:#FFFFFF;
+    -webkit-mask-box-image: url("../assets/design/bagparts/10_color-buckletop.png");
+}
+
+#buckletop-border{
+    width:15px;
+	height:15px;
+    background-color:#E1E1E1;
+    -webkit-mask-box-image: url("../assets/design/bagparts/10_color-buckletop.png");
+	margin-top:80px;
+	margin-left:10px;
+}
+
+/* Static Bag Styles */
+#innerbag img{
+	width:92%;
+	height:10px;
+	margin-top:47px;
+}
+
+#logo img{
+	width:85%;
+	margin-top:70px;
+}
+
+
+#buckle img{
+	height:20px;
+	width:12px;
+	margin-top:90px;
+	margin-left:-88px;
+}
+
+#stiches img{
+	width:60%;
+	margin-top:75px;
+}
+
+#extrastich2 img{
+	width:15px;
+	margin-top:110px;
+	margin-left:-80px;
+	
+}
+
+#bagtag img{
+	width:20px;
+	margin-top:160px;
+	margin-left:88px;
+}
+
+/* Design Section Hidden Buttons */
+#rightsidechoice{
+	width:130px;
+	float:right;
+	margin-top:-170px;
+	text-align:center;
+}
+
+#rightsidechoice img{
+	width:50px;
+	margin-top:5px;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+
+}
+
+#colormessage{
+	margin-top:10px;
+	margin-left:auto;
+	margin-right:auto;
+	left:0;
+	right:0;
+	width:180px;
+	position:relative;
+	height:100px;
+}
+
+#colormessage img{
+	width:60px;
+	padding:5px;
+}
+
+#strapselect, #bagselect{
+	border:0px solid #FC5B2A;
+	border-radius:50px;
+}
+
+#design-complete img{
+	width:40px !important;
+}
+
+.circleblack{
+    width: 98%;
+    height:98%;
+    top:1%;
+    left:1%;
+	background-color: rgb(43,44,61);
+    -webkit-mask-box-image: url("../assets/design/circle.png");
+}
+
+.circlebrown{
+    width: 98%;
+    height:98%;
+    top:1%;
+    left:1%;
+	background-color: rgb(87,65,67);
+    -webkit-mask-box-image: url("../assets/design/circle.png");
+}
+
+.large-circleborder{
+	width: 60px;
+    height:60px;
+    -webkit-mask-box-image: url("../assets/design/circle.png");
+	float:left;
+	padding:5px;
+}
+
+#waterproof-choices{
+	margin-left:30px;
+}
+/* Color Choice */
+.circle{
+    width: 98%;
+    height:98%;
+    top:1%;
+    left:1%;
+    -webkit-mask-box-image: url("../assets/design/circle.png");
+}
+
+.circleborder{
+    width: 35px;
+    height:35px;
+    -webkit-mask-box-image: url("../assets/design/circle.png");
+	float:left;
+	padding:2px;
+}
+
+/* Share Page */
+.sharenav{
+	width:25%;
+	padding:10px;
+	float:left;
+}
+
+.sharenav img{
+	width:50px;
+}
+
+#picturearea img{
+	width:100%;
+}
+
+#socialmedia{
+	width:200px;
+	margin:auto auto;
+	margin-top:15px;
+}
+
+.sharenav-lower{
+	width:25%;
+	float:left;
+	padding:5px;
+}
+
+.sharenav-lower img{
+	width:40px;
+}
+
+/* Your Merin Page */
+.yourmerin{
+	text-align:left;
+}
+
+.yourmerin hr{
+	border:1px solid #F2F2F3;
+	margin-left:-10px;
+}
+
+.yourmerin img{
+	width:100%;
+	padding:10px;
+	margin-top:-20px;
+}
+
+.yourmerin h2{
+	font-size:35px;
+}
+
+.yourmerin h3{
+	font-size:30px;
+	margin-left:15px;
+	padding:10px;
+}
+
+/* Reviews Page */
+.reviews{
+	text-align:center;
+}
+
+#rank1, #rank2, #rank3, #rank4, #rank5{
+	width: 99%;
+    height:99%;
+    top:1%;
+    left:1%;
+	background-color:#FFFFFF;
+    -webkit-mask-box-image: url("../assets/review/flowerbtn-green.png");
+}
+
+#rank1-border, #rank2-border, #rank3-border, #rank4-border, #rank5-border{
+	width: 50px;
+    height:45px;
+	background-color:#E1E100;
+    -webkit-mask-box-image: url("../assets/review/flowerbtn-green.png");
+	float:left;
+	padding:5px;
+}
+
+.reviews textarea{
+	margin-top:15px;
+	border: 1px solid #E1E1E1; 
+	font-size:12px;
+	resize:none;
+}
+
+.reviews img{
+	margin-top:15px;
+	width:40px !important;
+}
+
+#reviewmessage{
+	font-size:12px;
+}
+
+.rankposition{
+	margin:auto auto;
+	width:252px;
+}
+
+/* Settings Page Styles */
+#settingspage{
+	text-align:center;
+	margin:auto auto;
+}
+
+#settingspage input:focus{
+	outline: none !important;
+    border:1px solid #E1E1E1;
+    box-shadow: 0 0 10px #E1E1E1;
+}
+
+.settingsection{
+	overflow:hidden;
+	width:180px;
+	margin:auto auto;
+	margin-top:10px;
+}
+
+.settingsection img{
+	width:25px;
+	float:left;
+}
+
+.settingsection input{
+	width:150px;
+	padding:2px;
+	border-radius:5px;
+	font-size:12px;
+	border-color:#E1E1E1;
+	float:right;
+}
+
+#settingssubmit{
+	width:40px !important;
+	margin:auto auto;
+}
+
+/* Responsive Styles  */
+@media(max-width: 1000px){
+	.center-block{
+		width:70%;
+	}
+}
+
+@media (max-width: 720px) {
+	.center-block{
+		width:90%;
+	}
+}
+
+@media(max-width: 375px){
+	.yourmerin-largeimg img{
+		height:170px;
+}
+}
+
+@media (max-width: 320px){
+	.yourmerin-largeimg img{
+		height:140px;
+	}
+}
